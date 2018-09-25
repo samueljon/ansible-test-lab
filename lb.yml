@@ -1,0 +1,9 @@
+---
+- name: Install and configure NGINX as a load balancer
+  hosts: lbservers
+  become: true
+  tasks:
+  - include_role:
+      name: nginx
+  - include_role:
+      name: nginx-config
