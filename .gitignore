@@ -1,2 +1,3 @@
 mypassword
 roles/nginx
+*.retry
